@@ -1,0 +1,36 @@
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-list {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--accent-text-color);
+  position: relative;
+  transition: var(--functcii--transition);
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+  background-color: var(--color-white);
+  color: var(--accent-color);
+  transition: var(--functcii--transition);
+}
+
+.navigation-item:not(:last-child) {
+  margin-right: 50px;
+}
