@@ -651,7 +651,7 @@ img {
   display: flex;
   flex-direction: column;
   width: 570px;
-  margin-left: 93px;
+  margin-left: auto;
 }
 
 .footer-form-button {
@@ -904,6 +904,7 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
+  outline: none;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -1008,7 +1009,6 @@ img {
   background-image: url("../images/vector.svg");
   background-position: center;
   background-color: var(--accent-color);
-  /*fill: var(--color-white);*/
   background-repeat: no-repeat;
 }
 
