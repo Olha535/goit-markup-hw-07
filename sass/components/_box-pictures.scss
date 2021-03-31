@@ -1,8 +1,8 @@
 .lessons-pictures {
   background: var(--color-white);
   position: relative;
-}
 
-.lessons-pictures:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }

@@ -18,10 +18,10 @@
   background: #2f303a;
 }
 
-.address-item:not(:last-child) {
-  margin-bottom: 9px;
-}
-
 .address-item {
   font-style: normal;
+
+  &:not(:last-child) {
+    margin-bottom: 9px;
+  }
 }

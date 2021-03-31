@@ -22,13 +22,13 @@
   color: var(--accent-text-color);
   position: relative;
   transition: var(--functcii--transition);
-}
 
-.navigation-link:hover,
-.navigation-link:focus {
-  background-color: var(--color-white);
-  color: var(--accent-color);
-  transition: var(--functcii--transition);
+  &:hover,
+  &:focus {
+    background-color: var(--color-white);
+    color: var(--accent-color);
+    transition: var(--functcii--transition);
+  }
 }
 
 .navigation-item:not(:last-child) {

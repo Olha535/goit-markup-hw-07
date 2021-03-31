@@ -1,0 +1,20 @@
+@import "./utils/variables";
+@import "./utils/visualy-hidden";
+
+@import "./base/common";
+@import "./base/container";
+
+@import "./components/logo";
+@import "./components/headings";
+@import "./components/logo-footer";
+@import "./components/footer-contact";
+@import "./components/social-lincs-main";
+@import "./components/social-footer";
+
+@import "./layout/header";
+@import "./layout/navigation-list";
+@import "./layout/portfolio-btn";
+@import "./layout/portfolio-card";
+
+@import "./layout/footer";
+@import "./layout/footer-form";

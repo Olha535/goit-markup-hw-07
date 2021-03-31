@@ -40,11 +40,11 @@
   border-radius: 4px;
   background: #2f303a;
   color: var(--color-white);
-}
 
-.footer-email-input:focus {
-  border-color: var(--accent-color);
-  outline: none;
+  &:focus {
+    border-color: var(--accent-color);
+    outline: none;
+  }
 }
 
 .footer-button-icon {
