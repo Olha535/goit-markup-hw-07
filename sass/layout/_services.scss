@@ -1,4 +1,4 @@
-.lessons-title {
+.services-list__title {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,7 +11,7 @@
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-.lessons-text {
+.services-list__text {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -22,10 +22,19 @@
   color: var(--color-white);
 }
 
-.services {
+.services-list {
   display: flex;
 }
 
-.block {
+.container__services {
   padding-top: 47px;
+}
+
+.services-list__item {
+  background: var(--color-white);
+  position: relative;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }

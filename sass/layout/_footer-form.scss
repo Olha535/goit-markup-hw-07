@@ -1,4 +1,4 @@
-.footer-form-button {
+.footer-button {
   display: flex;
   align-items: center;
   min-width: 200px;
@@ -13,7 +13,7 @@
   justify-content: space-between;
 }
 
-.footer-button-text {
+.footer-button__text {
   font-size: 16px;
   line-height: 1.88;
   font-weight: 700;
@@ -25,7 +25,7 @@
   color: #ffffff;
 }
 
-.footer-email-button {
+.footer-form-input {
   display: flex;
   align-items: center;
 }
@@ -47,7 +47,7 @@
   }
 }
 
-.footer-button-icon {
+.footer-button__icon {
   width: 24px;
   height: 24px;
 }

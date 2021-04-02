@@ -3,13 +3,13 @@
   align-items: center;
 }
 
-.navigation-list {
+.menu {
   display: flex;
   margin-left: auto;
   align-items: center;
 }
 
-.navigation-link {
+.menu__link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -26,6 +26,23 @@
   }
 }
 
-.navigation-item:not(:last-child) {
-  margin-right: 50px;
+.menu__item {
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
+}
+
+.linner::after {
+  content: "";
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: var(--accent-color);
+
+  margin-bottom: -32px;
+  border-radius: 2px;
 }
