@@ -104,6 +104,27 @@ img {
   color: var(--accent-color);
 }
 
+.logo-footer {
+  color: var(--color-white);
+}
+
+.logo-contact {
+  font-family: var(--secondari-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-text-color);
+  margin-bottom: 20px;
+  font-style: normal;
+  display: block;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+
 .social-list-icon {
   width: 20px;
   height: 20px;
@@ -188,22 +209,6 @@ img {
 
 .lessons-pictures:not(:last-child) {
   margin-right: 30px;
-}
-
-.logo-footer {
-  color: var(--color-white);
-}
-
-.logo-contact {
-  font-family: var(--secondari-font);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--accent-text-color);
-  margin-bottom: 20px;
-  font-style: normal;
-  display: block;
 }
 
 .city {
@@ -425,9 +430,6 @@ img {
   border-bottom: 1px solid #ececec;
 }
 
-/*.current {
-  color: var(--accent-color);
-}*/
 .tel-link {
   display: flex;
   justify-content: center;
@@ -481,11 +483,6 @@ img {
 .navigation-list {
   display: flex;
   margin-left: auto;
-  align-items: center;
-}
-
-.nav-logo {
-  display: flex;
   align-items: center;
 }
 

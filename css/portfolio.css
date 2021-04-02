@@ -85,16 +85,6 @@ img {
   color: var(--accent-color);
 }
 
-.components {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--accent-text-color);
-  margin-bottom: 50px;
-}
-
 .logo-footer {
   color: var(--color-white);
 }
@@ -109,6 +99,21 @@ img {
   margin-bottom: 20px;
   font-style: normal;
   display: block;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.components {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--accent-text-color);
+  margin-bottom: 50px;
 }
 
 .city {
@@ -215,9 +220,6 @@ img {
   border-bottom: 1px solid #ececec;
 }
 
-/*.current {
-  color: var(--accent-color);
-}*/
 .tel-link {
   display: flex;
   justify-content: center;
@@ -271,11 +273,6 @@ img {
 .navigation-list {
   display: flex;
   margin-left: auto;
-  align-items: center;
-}
-
-.nav-logo {
-  display: flex;
   align-items: center;
 }
 
