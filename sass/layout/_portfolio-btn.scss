@@ -1,4 +1,4 @@
-.content-btn {
+.knob__btn {
   padding: 6px 22px;
   display: inline-block;
   min-width: 73px;
@@ -26,13 +26,13 @@
   }
 }
 
-.menu-list {
+.knob {
   display: flex;
   justify-content: center;
   margin-bottom: 34px;
 }
 
-.menu-item {
+.knob__item {
   cursor: pointer;
   background: #f5f4fa;
   border-radius: 4px;

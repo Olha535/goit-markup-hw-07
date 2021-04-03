@@ -1,15 +1,16 @@
 .logo {
+  @include font(26px, 1.19);
   font-family: var(--secondari-font);
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+  /*font-size: 26px;
+  line-height: 1.19;*/
+  margin-right: 93px;
+  /*letter-spacing: 0.03em;*/
   font-style: normal;
 
   &_theme {
     &_light {
       color: #000000;
-      margin-right: 93px;
     }
 
     &_dark {
@@ -21,6 +22,11 @@
 
 .logo__logo-web {
   color: var(--accent-color);
+}
+
+.container__nav-logo {
+  display: flex;
+  align-items: center;
 }
 
 /*.logo-footer {
@@ -38,8 +44,3 @@
   font-style: normal;
   display: block;
 }*/
-
-.container__nav-logo {
-  display: flex;
-  align-items: center;
-}
