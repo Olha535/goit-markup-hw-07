@@ -1,10 +1,7 @@
 .mobal-form__text {
+  @include font(20px, 1.15);
   font-weight: 700;
-  font-size: 20px;
-  line-height: 1.15;
   text-align: center;
-  letter-spacing: 0.03em;
-
   color: #212121;
   margin-bottom: 12px;
 }
@@ -97,10 +94,9 @@
 }
 
 .modal-form-btn {
+  @include font(16px, 1.87, 0.06em);
   font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
+
   cursor: pointer;
   background-color: var(--accent-color);
   color: var(--color-white);
@@ -125,8 +121,6 @@
 }
 
 .modal-name {
-  font-size: 12px;
-  line-height: 1.16;
-  letter-spacing: 0.01em;
+  @include font(12px, 1.16, 0.01em);
   color: #757575;
 }

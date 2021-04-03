@@ -1,7 +1,6 @@
 .services-list__title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include style(flex, center, center);
+
   width: 100%;
   height: 70px;
   position: absolute;
@@ -12,13 +11,10 @@
 }
 
 .services-list__text {
+  @include font(14px, 1.14);
   font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
   text-align: center;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: var(--color-white);
 }
 

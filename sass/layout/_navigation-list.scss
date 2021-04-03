@@ -1,19 +1,12 @@
-.navigation {
-  display: flex;
-  align-items: center;
-}
-
 .menu {
-  display: flex;
+  @include style(flex, center, center);
   margin-left: auto;
-  align-items: center;
 }
 
 .menu__link {
+  @include font(14px, 1.14, 0.02em);
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+
   color: var(--accent-text-color);
   position: relative;
   transition: var(--functcii--transition);

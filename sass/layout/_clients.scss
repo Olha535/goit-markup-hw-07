@@ -1,13 +1,10 @@
 .clients {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  @include style();
 }
 
 .clients__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include style(flex, center, center);
+
   width: 170px;
   height: 90px;
   border: 1px solid #afb1b8;

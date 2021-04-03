@@ -2,15 +2,14 @@
   @include font(26px, 1.19);
   font-family: var(--secondari-font);
   font-weight: 700;
-  /*font-size: 26px;
-  line-height: 1.19;*/
-  margin-right: 93px;
-  /*letter-spacing: 0.03em;*/
+  display: block;
+
   font-style: normal;
 
   &_theme {
     &_light {
       color: #000000;
+      margin-right: 93px;
     }
 
     &_dark {
@@ -28,10 +27,6 @@
   display: flex;
   align-items: center;
 }
-
-/*.logo-footer {
-  color: var(--color-white);
-}*/
 
 /*.logo-contact {
   font-family: var(--secondari-font);

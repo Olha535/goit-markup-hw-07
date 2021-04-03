@@ -1,8 +1,5 @@
 .address-item__city {
   @include font();
-  /*font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;*/
   color: var(--color-white);
   margin-bottom: 9px;
 }
@@ -15,9 +12,6 @@
 
 .contact-list-dark__mail-tel {
   @include font();
-  /*font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;*/
   color: rgba(255, 255, 255, 0.6);
   background: #2f303a;
 }

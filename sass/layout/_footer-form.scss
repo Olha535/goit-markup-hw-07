@@ -1,6 +1,6 @@
 .footer-button {
-  display: flex;
-  align-items: center;
+  @include style();
+
   min-width: 200px;
   height: 50px;
   margin-left: 12px;
@@ -10,24 +10,20 @@
   border-radius: 4px;
   cursor: pointer;
   border: 0;
-  justify-content: space-between;
 }
 
 .footer-button__text {
-  font-size: 16px;
-  line-height: 1.88;
+  @include font(16px, 1.88, 0.06em);
+
   font-weight: 700;
   display: flex;
   align-items: center;
   text-align: center;
-  letter-spacing: 0.06em;
-
   color: #ffffff;
 }
 
 .footer-form-input {
-  display: flex;
-  align-items: center;
+  @include style(flex, center, center);
 }
 
 .footer-email-input {

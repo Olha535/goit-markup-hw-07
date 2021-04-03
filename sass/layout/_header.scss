@@ -1,9 +1,7 @@
 .header {
+  @include style();
   padding-top: 24px;
   padding-bottom: 24px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   border-bottom: 1px solid rgba(236, 236, 236, 1);
 }
 
@@ -14,13 +12,9 @@
 }
 
 .contact-list__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include style(flex, center, center);
+  @include font(14px, 1.1, 0.02em);
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.1;
-  letter-spacing: 0.02em;
   color: var(--accent-too-color);
   transition: var(--functcii--transition);
 

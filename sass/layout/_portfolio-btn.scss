@@ -1,12 +1,10 @@
 .knob__btn {
+  @include font(16px, 1.62);
   padding: 6px 22px;
   display: inline-block;
   min-width: 73px;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--accent-text-color);
   background-color: #f5f4fa;
   cursor: pointer;
@@ -27,8 +25,7 @@
 }
 
 .knob {
-  display: flex;
-  justify-content: center;
+  @include style(flex, center, center);
   margin-bottom: 34px;
 }
 
