@@ -1,9 +1,9 @@
-.menu {
+.menu-list {
   @include style(flex, center, center);
   margin-left: auto;
 }
 
-.menu__link {
+.menu-list__link {
   @include font(14px, 1.14, 0.02em);
   font-weight: 500;
 
@@ -19,7 +19,7 @@
   }
 }
 
-.menu__item {
+.menu-list__item {
   &:not(:last-child) {
     margin-right: 50px;
   }

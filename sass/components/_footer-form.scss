@@ -1,11 +1,11 @@
-.footer-form-main {
+.footer-form__container {
   display: flex;
   flex-direction: column;
   width: 570px;
   margin-left: auto;
 }
 
-.footer-button {
+.footer-form__button {
   @include style();
   min-width: 200px;
   height: 50px;
@@ -27,11 +27,11 @@
   color: var(--color-white);
 }
 
-.footer-form-input {
+.footer-form__input {
   @include style(flex, center, center);
 }
 
-.footer-form-email__text {
+.footer-form__text {
   @include font(14px, 1.14);
   display: block;
   text-transform: uppercase;
@@ -39,7 +39,7 @@
   margin-bottom: 20px;
 }
 
-.footer-email-input {
+.footer-form__email-input {
   height: 50px;
   min-width: 358px;
   padding-left: 16px;

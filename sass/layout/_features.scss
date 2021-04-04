@@ -26,12 +26,12 @@
   padding-top: 94px;
 }
 
-.block-svg__icon {
+.features-list__icon {
   width: 70px;
   height: 70px;
 }
 
-.block-svg {
+.features-list__svg {
   @include style(flex, center, center);
   height: 120px;
   background-repeat: no-repeat;
