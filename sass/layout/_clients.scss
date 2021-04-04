@@ -11,7 +11,7 @@
   box-sizing: border-box;
   border-radius: 4px;
   color: #afb1b8;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: var(--functcii--transition);
 
   &:hover,
   &:focus {
@@ -22,7 +22,7 @@
 
 .clients__icon {
   fill: currentColor;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: var(--functcii--transition);
 
   .clients__link:hover &,
   .clients__link:focus & {

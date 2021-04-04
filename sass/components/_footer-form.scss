@@ -1,6 +1,12 @@
+.footer-form-main {
+  display: flex;
+  flex-direction: column;
+  width: 570px;
+  margin-left: auto;
+}
+
 .footer-button {
   @include style();
-
   min-width: 200px;
   height: 50px;
   margin-left: 12px;
@@ -14,16 +20,23 @@
 
 .footer-button__text {
   @include font(16px, 1.88, 0.06em);
-
   font-weight: 700;
   display: flex;
   align-items: center;
   text-align: center;
-  color: #ffffff;
+  color: var(--color-white);
 }
 
 .footer-form-input {
   @include style(flex, center, center);
+}
+
+.footer-form-email__text {
+  @include font(14px, 1.14);
+  display: block;
+  text-transform: uppercase;
+  color: var(--color-white);
+  margin-bottom: 20px;
 }
 
 .footer-email-input {
@@ -34,7 +47,7 @@
 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  background: #2f303a;
+  background: var(--background-footer);
   color: var(--color-white);
 
   &:focus {

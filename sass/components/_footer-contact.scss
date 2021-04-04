@@ -13,7 +13,7 @@
 .contact-list-dark__mail-tel {
   @include font();
   color: rgba(255, 255, 255, 0.6);
-  background: #2f303a;
+  background: var(--background-footer);
 }
 
 .address-item {

@@ -12,19 +12,16 @@
 
 .social-list {
   @include style();
+
+  &_theme-dark {
+    @include style();
+    margin-top: 20px;
+    width: 206px;
+    height: 44px;
+  }
 }
-
-.footer-list {
-  @include style();
-
-  margin-top: 20px;
-  width: 206px;
-  height: 44px;
-}
-
 .social-list__link {
   @include style(flex, center, center);
-
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -38,7 +35,7 @@
   }
 }
 
-.social-link {
+.social-dark__link {
   @include style(flex, center, center);
 
   width: 44px;

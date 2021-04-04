@@ -1,12 +1,10 @@
 .services-list__title {
   @include style(flex, center, center);
-
   width: 100%;
   height: 70px;
   position: absolute;
   bottom: 0;
   pointer-events: none;
-
   background-color: rgba(47, 48, 58, 0.8);
 }
 
